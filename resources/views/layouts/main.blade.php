@@ -125,9 +125,9 @@ span.menu-text {
 </head>
 
 <body>
+    @include('layouts.header')
 
-
-<main class="py-4" style = "margin-top:40px;">
+<main>
     @yield('content')
 </main>
 

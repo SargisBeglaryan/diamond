@@ -1,10 +1,11 @@
-<?php include 'includes/head.php'; ?>
-
-<body data-rsssl=1 class="home page-template page-template-100-width page-template-100-width-php page page-id-2 fusion-image-hovers fusion-body ltr fusion-sticky-header no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v3 avada-responsive avada-footer-fx-none fusion-search-form-classic">
+@extends('layouts/main')
+@section('style')
+    @parent
+    <link rel="stylesheet" href="css/obit.css">
+@endsection
+@section("content")
 <div id="wrapper" class="">
 <div id="home" style="position:relative;top:-1px;"></div>
-	
-<?php include 'includes/header.php'; ?>
 	
 
 	
@@ -287,5 +288,5 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/pakwebzone.com\/diamond\/wp-json\/
 <![endif]-->
 <script type='text/javascript' src='https://pakwebzone.com/diamond/wp-content/uploads/fusion-scripts/37f7cb759de0255f8b6a154299cfde2d.min.js?timestamp=1537445790'></script>
 <script type='text/javascript' src='https://pakwebzone.com/diamond/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
-</body>
-</html>
+
+@endsection
