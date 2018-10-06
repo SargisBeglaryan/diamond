@@ -127,30 +127,7 @@ span.menu-text {
 <main>
     @yield('content')
 </main>
-
-<footer>
-    @yield('scripts')
-</footer>
-
-</body>
-
-
-</html>
-
-<script type="text/javascript">
-        var doc = document.documentElement;
-        doc.setAttribute('data-useragent', navigator.userAgent);
-    </script>
-    @yield('style')
-</head>
-
-<body>
-    @include('layouts.header')
-
-<main>
-    @yield('content')
-</main>
-
+    @include('layouts.footer')
 <footer>
     @yield('scripts')
 </footer>
