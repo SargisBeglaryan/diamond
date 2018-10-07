@@ -1,4 +1,5 @@
 @extends('layouts/main')
+@section('title') {{'Home'}} @endsection
 @section('style')
     @parent
 @endsection

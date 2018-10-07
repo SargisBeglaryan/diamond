@@ -2,7 +2,7 @@
 	<div class="contact-form">
 		<div class="row justify-content-md-center">
 			<div class="col-md-10">
-				<div class="row text-center">
+				<div class="contact-form-content text-center">
 					<h4 class="contact-form-title">Contact us</h4>
 					<div role="form" class="wpcf7" id="wpcf7-f116-p11-o1" lang="en-US" dir="ltr">
 					<form action="/diamond/diamonds/#wpcf7-f116-p11-o1" method="post" class="wpcf7-form" novalidate="novalidate">
