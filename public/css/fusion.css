@@ -45,7 +45,8 @@
     color: #333333;
     margin-bottom: 40px;
 }
-.color-block-content .information-title {
+.color-block-content .information-title,
+.security-block-content  .information-title{
     font-family: "Antic Slab";
     font-size: 34px;
 }
