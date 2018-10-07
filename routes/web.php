@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/about-diamonds', function () {
+    return view('about-diamonds');
+});

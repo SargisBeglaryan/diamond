@@ -6,7 +6,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row justify-content-md-center">
+	<div class="bg-white row justify-content-md-center">
 		<div class="col-md-10">
 			<div class="fusion-header-v3 fusion-logo-left fusion-sticky-menu- fusion-sticky-logo-1 fusion-mobile-logo-1  fusion-mobile-menu-design-modern">
 			<nav class="navbar navbar-expand-lg navbar-light desctop-navigation">

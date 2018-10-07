@@ -2,6 +2,72 @@
     zoom: 1
 }
 
+.content-block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content-block .title-heading-center {
+    font-size: 18px;
+    border-bottom: solid 1px #000;
+    padding-bottom: 16px;
+}
+
+.content-block .diamond-count, .content-block .diamond-text {
+    color: #fff;
+    
+}
+.content-block .diamond-count {
+    font-size: 45px;
+    font-weight: bold
+}
+.content-block .diamond-text {
+    font-size: 25px;
+}
+.counter-block, .contact-form {
+    background-color: #000;
+}
+.contact-form {
+    padding-bottom: 50px;
+}
+.information-content {
+    color: #333333;
+    margin-bottom: 40px;
+} 
+.information-title {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.fusion-slider-loading {
+    display: none;
+}
+
+.contact-form-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Antic Slab";
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+.wpcf7 {
+    width: 100%;
+}
+span.wpcf7-not-valid-tip {
+    color: #f00;
+}
+.wpcf7 .form-group label {
+    display: block;
+    text-align: left;
+}
+.fusion-alert {
+    display: none;
+    margin-top: 20px;
+}
+
 .navigation-mobile {
     display: none;
 }
@@ -18266,8 +18332,6 @@ table {
     font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
-    src: url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.eot);
-    src: url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2) format("woff2"), url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff) format("woff"), url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf) format("truetype"), url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -18291,8 +18355,6 @@ table {
     font-family: 'Font Awesome 5 Free';
     font-style: normal;
     font-weight: 900;
-    src: url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.eot);
-    src: url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2) format("woff2"), url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff) format("woff"), url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf) format("truetype"), url(//pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa,
@@ -25045,6 +25107,13 @@ only screen and (max-width: 800px) and (min-resolution: 1.5dppx) {
         margin-top: 30px !important;
         margin-bottom: 15px !important;
     }
+    .information-content {
+        padding: 10px 20px;
+        margin-bottom: 0px;
+    }
+    .information-title {
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -25118,7 +25187,6 @@ only screen and (max-width: 800px) and (min-resolution: 1.5dppx) {
     position: relative;
     z-index: 200;
     overflow: hidden;
-    margin-top: 40px;
     display: block;
     width: 100%;
 }

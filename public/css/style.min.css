@@ -108,14 +108,6 @@ input[type=image] {
     border: none
 }
 
-body {
-    margin: 0;
-    color: #747474;
-    min-width: 320px;
-    -webkit-text-size-adjust: 100%;
-    font: 13px/20px PTSansRegular, Arial, Helvetica, sans-serif
-}
-
 body.body_blank.admin-bar {
     top: 31px
 }
@@ -132,9 +124,7 @@ body .fusion-content-widget-area .button {
     margin-left: 15px
 }
 
-body #toTop:before {
-    color: #fff
-}
+
 
 html {
     overflow-x: hidden
@@ -2303,6 +2293,7 @@ ul.list-icon li {
 
 #toTop {
     background-color: #333;
+    line-height: 35px;
     border-radius: 4px 4px 0 0;
     bottom: 0;
     color: #fff;
@@ -2316,14 +2307,6 @@ ul.list-icon li {
     opacity: .9;
     z-index: 100000;
     transition: all .2s ease-in-out 0s
-}
-
-#toTop:before {
-    line-height: 35px;
-    content: '\f106';
-    -webkit-font-smoothing: antialiased;
-    font-family: icomoon;
-    font-size: 22px
 }
 
 #toTop:hover {

@@ -127,10 +127,20 @@ span.menu-text {
 <main>
     @yield('content')
 </main>
-    @include('layouts.footer')
-<footer>
-    @yield('scripts')
-</footer>
+@include('layouts.footer')
+<a href="#" id="toTop"><i class="fas fa-chevron-up"></i></a>
+<script>
+    $(window).on('scroll', function(){
+    var bodyScrollTop = $(document).scrollTop();
+    if( bodyScrollTop >= 200){
+        $('#toTop').fadeIn(600);
+    } else {
+        $('#toTop').fadeOut(600);
+    }
+});
+</script>
+
+@yield('scripts')
 
 </body>
 
