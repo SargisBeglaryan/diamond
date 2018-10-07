@@ -44,7 +44,11 @@
 .information-content {
     color: #333333;
     margin-bottom: 40px;
-} 
+}
+.color-block-content .information-title {
+    font-family: "Antic Slab";
+    font-size: 34px;
+}
 .information-title {
     margin-top: 0px;
     margin-bottom: 15px;

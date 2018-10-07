@@ -17,3 +17,7 @@ Route::get('/', function () {
 Route::get('/about-diamonds', function () {
     return view('about-diamonds');
 });
+
+Route::get('/color', function () {
+    return view('diamonds-color');
+});
