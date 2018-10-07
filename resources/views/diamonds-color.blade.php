@@ -23,7 +23,6 @@
 						The best color of a diamond is the complete colorlessness. With an absolutely colorless diamond, white light penetrates the stone effortlessly and exits in the rainbow colors.<br><br>
 
 						For investment purposes we only recommend diamonds of color classes D to I.</p>
-						<br><br>
 						<img class="image-block" src="{{asset('imgs/color-first.jpg')}}" alt="Color image">
 					</div>
 				</div>
@@ -35,7 +34,6 @@
 						The purity scale begins with a flawless (under 10X magnification no inclusions recognizable) and goes up to inclusions, which significantly reduce the brilliance and radiance of a diamond.<br><br>
 
 						For investment purposes we recommend the highest purity levels from flawless to VVS2 (very, very slightly included).</p>
-						<br><br>
 						<img class="image-block" src="{{asset('imgs/color-second.jpg')}}" alt="Color image">
 					</div>
 				</div>
