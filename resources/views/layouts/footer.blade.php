@@ -103,6 +103,4 @@
 		});
 	});
 </script>
-
-<script type='text/javascript' src='https://pakwebzone.com/diamond/wp-content/uploads/fusion-scripts/7dc1fa0c1486c2c80727466c563bb993.min.js?timestamp=1537560742'></script>
 </footer>
