@@ -34,6 +34,7 @@
 .menu-item .active, .menu-item:hover a {
     color: #5e5e5e;
     border-color: #5e5e5e;
+    text-decoration: none;
 }
 .content-block .diamond-count {
     font-size: 45px;
@@ -127,6 +128,7 @@
 .contact-form .form-group label {
     display: block;
     text-align: left;
+    color: #fff;
 }
 .fusion-alert {
     display: none;
