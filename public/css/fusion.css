@@ -69,14 +69,7 @@
     border-bottom: 1px solid;
     padding-bottom: 20px;
 }
-
-.wpcf7 {
-    width: 100%;
-}
-span.wpcf7-not-valid-tip {
-    color: #f00;
-}
-.wpcf7 .form-group label {
+.contact-form .form-group label {
     display: block;
     text-align: left;
 }
@@ -95,15 +88,36 @@ span.wpcf7-not-valid-tip {
 #navbarSupportedContent {
     margin-top: 15px;
 }
-
-.group:after,
-.group:before {
-    content: " ";
-    display: table
+.sertificate-number {
+    font-family: "Antic Slab";
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
 }
-
-.group:after {
-    clear: both
+.fusion-logo img{
+    max-width: 200px;
+}
+span.menu-text {
+    text-transform: uppercase;
+}
+#content.full-width {
+    background: #fff !important;
+    width: 100%;
+}
+.fusion-header {
+    max-height: 150px !important;
+}
+.fusion-contact-info {
+    line-height: 44px;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+.fusion-contact-info a {
+    line-height: 44px;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-weight: bold;
 }
 
 .footer-info-block {
@@ -120,39 +134,6 @@ span.wpcf7-not-valid-tip {
 }
 .adejiam-links a:hover {
     color: #fff !important;
-}
-
-.clearfix {
-    clear: both
-}
-
-.fusion-clearfix {
-    zoom: 1;
-    clear: both
-}
-
-.fusion-clearfix:after,
-.fusion-clearfix:before {
-    content: " ";
-    display: table
-}
-
-.fusion-clearfix:after {
-    clear: both
-}
-
-.alignleft,
-.fusion-alignleft {
-    display: inline;
-    float: left;
-    margin-right: 15px
-}
-
-.alignright,
-.fusion-alignright {
-    display: inline;
-    float: right;
-    margin-left: 15px
 }
 
 .aligncenter,

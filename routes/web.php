@@ -21,7 +21,12 @@ Route::get('/about-diamonds', function () {
 Route::get('/color', function () {
     return view('diamonds-color');
 });
+
 Route::get('/certificate-security', function () {
     return view('certificate-security');
+});
+
+Route::get('/sustainability', function () {
+    return view('sustainability');
 });
 

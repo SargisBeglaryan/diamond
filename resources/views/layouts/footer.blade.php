@@ -4,70 +4,52 @@
 			<div class="col-md-10">
 				<div class="contact-form-content text-center">
 					<h4 class="contact-form-title">Contact us</h4>
-					<div role="form" class="wpcf7" id="wpcf7-f116-p11-o1" lang="en-US" dir="ltr">
-					<form action="/diamond/diamonds/#wpcf7-f116-p11-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-					<div style="display: none;">
-						<input type="hidden" name="_wpcf7" value="116" />
-						<input type="hidden" name="_wpcf7_version" value="5.0.4" />
-						<input type="hidden" name="_wpcf7_locale" value="en_US" />
-						<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f116-p11-o1" />
-						<input type="hidden" name="_wpcf7_container_post" value="11" />
-					</div>
+					<form action="" method="post" novalidate="novalidate">
 					<div class="form-row">
 						<div class="form-group col-md-6">
-							<label> Your Name (required)<br />
-								<span class="wpcf7-form-control-wrap your-name">
-									<input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" />
-								</span> 
-							</label>
+							<label for="form-name">Your Name (required)</label>
+      						<input type="text" class="form-control" id="form-name" name="your-name" required>
+							<div class="invalid-feedback">
+						        Required
+					      	</div>
 						</div>
 						<div class="form-group col-md-6">
-							<label> Your Email (required)<br />
-								<span class="wpcf7-form-control-wrap your-email">
-									<input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" />
-								</span> 
-							</label>
+							<label for="form-email">Your Email (required)</label>
+      						<input type="email" class="form-control" id="form-email" name="your-email" required>
+							<div class="invalid-feedback">
+						        Required
+					      	</div>
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6">
-							<label> Subject<br />
-								<span class="wpcf7-form-control-wrap your-subject">
-									<input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" />
-								</span> 
-							</label>
+							<label for="form-subject">Subject</label>
+      						<input type="text" class="form-control" id="form-subject" name="your-subject">
 						</div>
 						<div class="form-group col-md-6">
-							<label> Phone Number<br />
-								<span class="wpcf7-form-control-wrap number-477">
-									<input type="number" name="number-477" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-number" aria-invalid="false" />
-								</span> 
-							</label>
+							<label for="form-phone">Subject</label>
+      						<input type="number" class="form-control" id="form-phone" name="your-phone">
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-12">
-							<label> Your Message<br />
-								<span class="wpcf7-form-control-wrap your-message">
-									<textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
-								</span> 
-							</label>
+							<label for="your-message">Your Message</label>
+    						<textarea class="form-control" id="your-message" rows="10"></textarea>
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="col-md-12">
-							<input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" />
+							<button type="submit" class="btn btn-secondary btn-lg btn-block">Send</button>
 						</div>
 					</div>
-					<div class="fusion-alert alert custom alert-custom fusion-alert-center fusion-alert-capitalize alert-dismissable wpcf7-response-output wpcf7-display-none" style="background-color:;color:;border-color:;border-width:1px;">
-						<button style="color:;border-color:;" type="button" class="close toggle-alert" >
+					<div class="fusion-alert alert alert-danger alert-dismissible fade show" role="alert">
+						<i class="fa-lg fa fa-exclamation-triangle"></i>
+						<strong>ONE OR MORE FIELDS HAVE AN ERROR. PLEASE CHECK AND TRY AGAIN!</strong>
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
 						</button>
-						<div class="fusion-alert-content-wrapper">
-							<span class="fusion-alert-content"></span>
-						</div>
 					</div>
 					</form>
-				</div>
 				</div>
 			</div>
 		</div>
@@ -110,12 +92,6 @@
 	</div>
 <script type="text/javascript">
 	$( document ).ready( function() {
-		var ajaxurl = 'https://pakwebzone.com/diamond/wp-admin/admin-ajax.php';
-		if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
-			jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
-				jQuery( '.fusion-login-nonce' ).html( response );
-			});
-		}
 
 		$('body').on('click', '.close.toggle-alert', function(event) {
 			event.preventDefault();
@@ -125,15 +101,6 @@
 		});
 	});
 </script>
-	<script type='text/javascript'>
-/* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"https:\/\/pakwebzone.com\/diamond\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://pakwebzone.com/diamond/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.4'></script>
-<!--[if IE 9]>
-<script type='text/javascript' src='https://pakwebzone.com/diamond/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-ie9.js?ver=1'></script>
-<![endif]-->
+
 <script type='text/javascript' src='https://pakwebzone.com/diamond/wp-content/uploads/fusion-scripts/7dc1fa0c1486c2c80727466c563bb993.min.js?timestamp=1537560742'></script>
-<script type='text/javascript' src='https://pakwebzone.com/diamond/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
 </footer>
