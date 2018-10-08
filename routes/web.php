@@ -46,6 +46,14 @@ Route::get('/shipment', function () {
     return view('shipment');
 });
 
-Route::get('/buy-back', function () {
-    return view('buy-back');
+Route::get('/events', function () {
+    return view('events');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });

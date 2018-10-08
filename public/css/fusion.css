@@ -50,12 +50,37 @@
 .brilliant-block-content .information-title,
 .crisis-block-content .information-title,
 .development-block-content .information-title,
-.buy-block-content  .information-title {
+.events-block-content  .information-title,
+.about-block-content .information-title {
     font-family: "Antic Slab";
     font-size: 34px;
 }
 .buy-block-content {
     padding: 30px 0px 5px;
+}
+.contact-us-block {
+    background-color: #000000;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+}
+.contact-block-content {
+    margin-top: 150px;
+    padding-left: 20px;
+}
+.social-icons-list {
+    list-style-type: none;
+    color: #fff;
+    padding-left: 0px;
+}
+.social-icons-list li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.social-icons-list li i {
+    font-size: 16px;
+}
+.contact-block-content .information-decription {
+    color: #fff;
 }
 .brilliant-block-content .information-title {
     font-size: 19px;
@@ -25128,6 +25153,9 @@ only screen and (max-width: 800px) and (min-resolution: 1.5dppx) {
     }
     .page-title-content {
         padding-left: 20px;
+    }
+    .contact-block-content {
+        margin-top: 20px;
     }
 }
 

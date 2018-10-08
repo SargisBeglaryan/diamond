@@ -1,4 +1,5 @@
 <footer>
+	@if(!Request::is('contact'))
 	<div class="contact-form">
 		<div class="row justify-content-md-center">
 			<div class="col-md-10">
@@ -54,6 +55,7 @@
 			</div>
 		</div>
 	</div>
+	@endif
 
 	<div class="fusion-footer-widget-area">
 		<div class="container">
