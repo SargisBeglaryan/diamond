@@ -219,3 +219,234 @@ img {
     color: #fff;
     cursor: pointer;
 }
+.group {
+    zoom: 1
+}
+
+.content-block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content-block .title-heading-center {
+    font-size: 18px;
+    border-bottom: solid 1px #000;
+    padding-bottom: 16px;
+}
+
+.content-block .diamond-count, .content-block .diamond-text {
+    color: #fff;
+    
+}
+.fusion-main-menu .sub-menu {
+    position: absolute;
+}
+.fusion-main-menu {
+    position: relative;
+    z-index: 200;
+    display: block;
+    width: 100%;
+}
+.sub-menu {
+    display: none;
+}
+.fusion-dropdown-menu:hover .sub-menu {
+    display: block;
+}
+.menu-item .active, .menu-item:hover a {
+    color: #5e5e5e;
+    border-color: #5e5e5e;
+    text-decoration: none;
+}
+.content-block .diamond-count {
+    font-size: 45px;
+    font-weight: bold
+}
+.content-block .diamond-text {
+    font-size: 25px;
+}
+.counter-block, .contact-form,
+.page-title-content {
+    background-color: #000;
+}
+.page-title-content {
+    padding: 30px 0px;
+}
+.page-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.image-block {
+    width: 100%;
+}
+.contact-form {
+    padding-bottom: 50px;
+}
+.information-content {
+    color: #333333;
+    margin-bottom: 40px;
+}
+.color-block-content .information-title,
+.security-block-content  .information-title,
+.brilliant-block-content .information-title,
+.crisis-block-content .information-title,
+.development-block-content .information-title,
+.buy-block-content .information-title,
+.events-block-content  .information-title,
+.about-block-content .information-title {
+    font-family: "Antic Slab";
+    font-size: 34px;
+}
+.buy-block-content {
+    padding: 30px 0px 5px;
+}
+.contact-us-block {
+    background-color: #000000;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+}
+.contact-block-content {
+    margin-top: 150px;
+    padding-left: 20px;
+}
+.social-icons-list {
+    list-style-type: none;
+    color: #fff;
+    padding-left: 0px;
+}
+.social-icons-list li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.social-icons-list li i {
+    font-size: 16px;
+}
+.contact-block-content .information-decription {
+    color: #fff;
+}
+.brilliant-block-content .information-title {
+    font-size: 19px;
+}
+.information-title {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.fusion-slider-loading {
+    display: none;
+}
+
+.contact-form-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Antic Slab";
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+.contact-form .form-group label {
+    display: block;
+    text-align: left;
+    color: #fff;
+}
+.fusion-alert {
+    display: none;
+    margin-top: 20px;
+}
+
+.navigation-mobile {
+    display: none;
+}
+.diamond-logo-link {
+    display:inline-block;
+    width: 200px;
+}
+#navbarSupportedContent {
+    margin-top: 15px;
+}
+.sertificate-number {
+    font-family: "Antic Slab";
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+.fusion-logo img{
+    max-width: 200px;
+}
+span.menu-text {
+    text-transform: uppercase;
+}
+#content.full-width {
+    background: #fff !important;
+    width: 100%;
+}
+.fusion-header {
+    max-height: 150px !important;
+}
+.fusion-contact-info {
+    line-height: 44px;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+.fusion-contact-info a {
+    line-height: 44px;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.footer-info-block {
+    margin-top: 70px;
+    color: #fff;
+    font-size: 14px;
+}
+.footer-info-block hr {
+    border: 1px solid;
+    width: 100%;
+}
+.adejiam-links {
+    margin-bottom: 0px;
+}
+.adejiam-links a:hover {
+    color: #fff !important;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .fusion-tabs.vertical-tabs .tab-pane {
+        max-width: none !important;
+    }
+    .widget-title {
+        margin-top: 30px !important;
+        margin-bottom: 15px !important;
+    }
+    .information-content {
+        padding: 10px 20px;
+        margin-bottom: 0px;
+    }
+    .information-title {
+        margin-top: 40px;
+    }
+    .content-block, .contact-form-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .page-title-content {
+        padding-left: 20px;
+    }
+    .contact-block-content {
+        margin-top: 20px;
+    }
+    .navigation-mobile {
+        display: block;
+    }
+    .desctop-navigation {
+        display: none;
+    }
+}
+
