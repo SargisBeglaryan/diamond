@@ -43,10 +43,10 @@
 									<a href="{{url('sustainability')}}" class="fusion-bar-highlight">
 									<span>Invest Sustainably</span></a>
 								</li>
-								<li role="menuitem" class="menu-item fusion-dropdown-submenu"><a href="{{'color'}}" class="fusion-bar-highlight">
+								<li role="menuitem" class="menu-item fusion-dropdown-submenu"><a href="{{'brilliant-advantages'}}" class="fusion-bar-highlight">
 									<span>Brilliant advantages</span></a></li>
 								<li role="menuitem" class="menu-item fusion-dropdown-submenu">
-									<a href="{{url('brilliant-advantages')}}" class="fusion-bar-highlight">
+									<a href="{{url('absolutely-immune-to-crises')}}" class="fusion-bar-highlight">
 									<span>Absolutely immune to crises</span></a>
 								</li>
 								<li role="menuitem" class="menu-item fusion-dropdown-submenu">

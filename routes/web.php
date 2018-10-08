@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
+
 Route::get('/about-diamonds', function () {
     return view('about-diamonds');
 });
@@ -29,4 +30,22 @@ Route::get('/certificate-security', function () {
 Route::get('/sustainability', function () {
     return view('sustainability');
 });
+Route::get('/brilliant-advantages', function () {
+    return view('brilliant-advantages');
+});
 
+Route::get('/absolutely-immune-to-crises', function () {
+    return view('crisis-immunity');
+});
+
+Route::get('/development', function () {
+    return view('development');
+});
+
+Route::get('/shipment', function () {
+    return view('shipment');
+});
+
+Route::get('/buy-back', function () {
+    return view('buy-back');
+});
