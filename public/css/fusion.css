@@ -47,9 +47,15 @@
 }
 .color-block-content .information-title,
 .security-block-content  .information-title,
-.brilliant-block-content .information-title{
+.brilliant-block-content .information-title,
+.crisis-block-content .information-title,
+.development-block-content .information-title,
+.buy-block-content  .information-title {
     font-family: "Antic Slab";
     font-size: 34px;
+}
+.buy-block-content {
+    padding: 30px 0px 5px;
 }
 .brilliant-block-content .information-title {
     font-size: 19px;
