@@ -57,7 +57,7 @@
 	</div>
 	@endif
 
-	<div class="fusion-footer-widget-area">
+	<div class="diamond-footer-widget-area">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-6">
@@ -68,12 +68,12 @@
 				</div>
 				<div class="col-md-6">
 					<h4 class="widget-title">Connect on Social Media</h4>
-					<div class="fusion-social-networks">
-						<ul class="fusion-social-networks-wrapper">
-							<li><a class="fusion-social-network-icon"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a class="fusion-social-network-icon"><i class="fab fa-flickr"></i></a></li>
-							<li><a class="fusion-social-network-icon"><i class="fab fa-google-plus-g"></i></a></li>
-							<li><a class="fusion-social-network-icon"><i class="fab fa-linkedin-in"></i></a></li>
+					<div class="diamond-social-networks">
+						<ul class="diamond-social-networks-wrapper">
+							<li><a class="diamond-social-network-icon"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a class="diamond-social-network-icon"><i class="fab fa-flickr"></i></a></li>
+							<li><a class="diamond-social-network-icon"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a class="diamond-social-network-icon"><i class="fab fa-linkedin-in"></i></a></li>
 						</ul>
 					</div>
 				</div>

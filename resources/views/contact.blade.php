@@ -57,7 +57,7 @@
 										<button type="submit" class="btn btn-secondary btn-lg btn-block">Send</button>
 									</div>
 								</div>
-								<div class="fusion-alert alert alert-danger alert-dismissible fade show" role="alert">
+								<div class="diamond-alert alert alert-danger alert-dismissible fade show" role="alert">
 									<i class="fa-lg fa fa-exclamation-triangle"></i>
 									<strong>ONE OR MORE FIELDS HAVE AN ERROR. PLEASE CHECK AND TRY AGAIN!</strong>
 									<button type="button" class="close" data-dismiss="alert" aria-label="Close">

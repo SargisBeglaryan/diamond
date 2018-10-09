@@ -24,7 +24,7 @@
 					<h2 class="title-heading-center">
 						<strong>ABOUT DIAMONDS</strong>
 					</h2>
-					<div class="fusion-text">
+					<div class="about-diamond-text">
 						<p>Asset security and attractive added value are compatible with each other; Diamonds are among the most valuable materials and have always been used not only as jewelry, but also for the storage and transportation of assets.
 						</p>
 					</div>
@@ -33,7 +33,7 @@
 					<h2 class="title-heading-center">
 						<strong>COLOR OF DIAMOND</strong>
 					</h2>
-					<div class="fusion-text">
+					<div class="about-diamond-text">
 						<p>The diamond color grades begin with &#8220;D&#8221; (colorless) and claim the entire alphabet up to &#8220;Z&#8221; (clear coloring, usually yellowish, but also brown or other tones possible).
 						</p>
 					</div>
@@ -42,7 +42,7 @@
 					<h2 class="title-heading-center">
 						<strong>CERTIFICATES &amp; SECURITY</strong>
 					</h2>
-					<div class="fusion-text">
+					<div class="about-diamond-text">
 						<p>The sealing of the diamond ensures that the diamond in it is genuine and that the laboratory bears the responsibility for authenticity and graduation specified on the attached certificate.
 						</p>
 					</div>

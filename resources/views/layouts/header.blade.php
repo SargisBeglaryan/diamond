@@ -1,10 +1,10 @@
 <header>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="fusion-secondary-header">
+			<div class="diamond-secondary-header">
 				<div class="row justify-content-md-center">
 					<div class="col-md-10">
-						<div class="fusion-contact-info">Call Us Today! 1.555.555.555<span class="fusion-header-separator">|</span><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></div>
+						<div class="diamond-contact-info">Call Us Today! 1.555.555.555<span class="diamond-header-separator">|</span><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></div>
 					</div>
 				</div>
 			</div>
@@ -15,53 +15,53 @@
 			<div class="col-md-10">
 				<div class="">
 				<nav class="row navbar navbar-expand-lg navbar-light desctop-navigation">
-					<div class="fusion-logo">
+					<div class="diamond-logo">
 						<a class="diamond-logo-link" href="{{url('/')}}">
 							<img src="{{asset('imgs/logo.png')}}" alt="logo">
 						</a>
 					</div>
-			  		<div class="fusion-main-menu" id="navbarNav">
+			  		<div class="diamond-main-menu" id="navbarNav">
 					    <ul id="menu-menu"  class="float-right navbar-nav">
 					      <li class="nav-item  menu-item">
 					        <a  href="{{url('/')}}" class="{{(Request::is('/')) ? 'active' : '' }}"><span>HOME</span></a>
 					      </li>
-					      <li class="nav-item menu-item  fusion-dropdown-menu">
+					      <li class="nav-item menu-item  diamond-dropdown-menu">
 					      	<a href="#" class="{{(Request::is('about-diamonds')) || (Request::is('color')) || (Request::is('certificate-security')) ? 'active' : '' }}"><span class="menu-text">DIAMONDS</span></a>
 					      	<ul class="sub-menu">
-								<li class="menu-item fusion-dropdown-submenu">
-									<a href="{{url('about-diamonds')}}" class="fusion-bar-highlight"><span>About Diamonds</span></a>
+								<li class="menu-item diamond-dropdown-submenu">
+									<a href="{{url('about-diamonds')}}" class="diamond-bar-highlight"><span>About Diamonds</span></a>
 								</li>
-								<li class="menu-item fusion-dropdown-submenu"><a href="{{'color'}}" class="fusion-bar-highlight">
+								<li class="menu-item diamond-dropdown-submenu"><a href="{{'color'}}" class="diamond-bar-highlight">
 									<span>Color</span></a></li>
-								<li class="menu-item fusion-dropdown-submenu">
-									<a href="{{url('certificate-security')}}" class="fusion-bar-highlight">
+								<li class="menu-item diamond-dropdown-submenu">
+									<a href="{{url('certificate-security')}}" class="diamond-bar-highlight">
 										<span>Certificates &#038; Security</span></a>
 								</li>
 							</ul>
 					      </li>
-					      <li class="nav-item menu-item fusion-dropdown-menu">
+					      <li class="nav-item menu-item diamond-dropdown-menu">
 					      	<a href="#" class="{{(Request::is('sustainability')) || (Request::is('brilliant-advantages')) || (Request::is('absolutely-immune-to-crises')) || (Request::is('development')) || (Request::is('buy-back')) || (Request::is('shipment')) ? 'active' : '' }}""><span>INVESTMENT DIAMONDS</span></a>
 					      	<ul class="sub-menu">
-								<li class="menu-item fusion-dropdown-submenu">
-									<a href="{{url('sustainability')}}" class="fusion-bar-highlight">
+								<li class="menu-item diamond-dropdown-submenu">
+									<a href="{{url('sustainability')}}" class="diamond-bar-highlight">
 									<span>Invest Sustainably</span></a>
 								</li>
-								<li class="menu-item fusion-dropdown-submenu"><a href="{{'brilliant-advantages'}}" class="fusion-bar-highlight">
+								<li class="menu-item diamond-dropdown-submenu"><a href="{{'brilliant-advantages'}}" class="diamond-bar-highlight">
 									<span>Brilliant advantages</span></a></li>
-								<li class="menu-item fusion-dropdown-submenu">
-									<a href="{{url('absolutely-immune-to-crises')}}" class="fusion-bar-highlight">
+								<li class="menu-item diamond-dropdown-submenu">
+									<a href="{{url('absolutely-immune-to-crises')}}" class="diamond-bar-highlight">
 									<span>Absolutely immune to crises</span></a>
 								</li>
-								<li class="menu-item fusion-dropdown-submenu">
-									<a href="{{url('development')}}" class="fusion-bar-highlight">
+								<li class="menu-item diamond-dropdown-submenu">
+									<a href="{{url('development')}}" class="diamond-bar-highlight">
 									<span>Development</span></a>
 								</li>
-								<li class="menu-item fusion-dropdown-submenu">
-									<a href="{{url('shipment')}}" class="fusion-bar-highlight">
+								<li class="menu-item diamond-dropdown-submenu">
+									<a href="{{url('shipment')}}" class="diamond-bar-highlight">
 									<span>Shipment &#038; Storage</span></a>
 								</li>
-								<li class="menu-item fusion-dropdown-submenu">
-									<a href="{{url('buy-back')}}" class="fusion-bar-highlight">
+								<li class="menu-item diamond-dropdown-submenu">
+									<a href="{{url('buy-back')}}" class="diamond-bar-highlight">
 									<span>Diamond buy-back</span></a>
 								</li>
 							</ul>
