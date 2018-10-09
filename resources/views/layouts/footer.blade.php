@@ -40,10 +40,10 @@
 					</div>
 					<div class="form-row">
 						<div class="col-md-12">
-							<button type="submit" class="btn btn-secondary btn-lg btn-block">Send</button>
+							<button type="submit" class="submit-button btn btn-secondary btn-lg btn-block">Send</button>
 						</div>
 					</div>
-					<div class="fusion-alert alert alert-danger alert-dismissible fade show" role="alert">
+					<div class="form-error-alert alert alert-danger alert-dismissible fade show" role="alert">
 						<i class="fa-lg fa fa-exclamation-triangle"></i>
 						<strong>ONE OR MORE FIELDS HAVE AN ERROR. PLEASE CHECK AND TRY AGAIN!</strong>
 						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -96,10 +96,15 @@
 <script type="text/javascript">
 	$( document ).ready( function() {
 
-		$('body').on('click', '.close.toggle-alert', function(event) {
+		$('.submit-button').on('click', function (event) {
+			event.preventDefault();
+			$('.form-error-alert').fadeIn(1000);
+		});
+
+		$('body').on('click', '.close', function(event) {
 			event.preventDefault();
 			event.stopPropagation();
-			$('.fusion-alert').fadeOut(1000);
+			$('.form-error-alert').fadeOut(1000);
 
 		});
 	});

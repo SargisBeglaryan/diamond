@@ -15,13 +15,18 @@ img {
     font-size: 12px;
     color: #747474;
     border-bottom-color: #e5e5e5;
+    width: 100%;
+}
+.fusion-secondary-header > .row,
+.contact-form > .row {
+    margin: 0px;
 }
 
 #toTop {
     background-color: #333;
     line-height: 35px;
     border-radius: 4px 4px 0 0;
-    bottom: 0;
+    bottom: 20px;
     color: #fff;
     display: none;
     height: 35px;
@@ -237,6 +242,9 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.content-block > .row {
+    margin: 0px;
+}
 .content-block .title-heading-center {
     font-size: 18px;
     border-bottom: solid 1px #000;
@@ -329,6 +337,9 @@ img {
     display: inline-block;
     margin-right: 15px;
 }
+.social-icons-list li a {
+    color: #fff;
+}
 .social-icons-list li i {
     font-size: 16px;
 }
@@ -363,7 +374,7 @@ img {
     text-align: left;
     color: #fff;
 }
-.fusion-alert {
+.form-error-alert {
     display: none;
     margin-top: 20px;
 }
@@ -511,9 +522,83 @@ span.menu-text {
     font: 13px/20px PTSansBold,arial,helvetica,sans-serif;
     color: #dddddd;
 }
+.slider-content {
+    width: 100%;
+    height: 500px;
+}
+.slide-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/imgs/diamonds-2.jpg);
+    text-align: center;
+}
+.content-title {
+    z-index: 8;
+    white-space: nowrap;
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    visibility: inherit;
+    letter-spacing: -1px;
+    font-weight: 700;
+    -webkit-animation: posanimation 3s;
+    animation: posanimation 3s;
+    position: relative;
+    top: 300px;
+    display: none;
+}
+.change-position {
+    top: 120px;
+}
+.slide-description {
+    background-color: #000;
+    opacity: 0.8;
+    z-index: 9;
+    white-space: nowrap;
+    font-size: 31px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 120px;
+    width: 540px;
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 10px 15px;
+    display: none;
+}
 
+@-webkit-keyframes posanimation {
+    1% {top:300px;}
+    60% {top:100px;}
+    to {top:120px;}
+}
+@keyframes posanimation {
+    1% {top:300px;}
+    60% {top:100px;}
+    to {top:120px;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .slider-content {
+        height: 400px;
+    }
+    #menu-menu {
+        display: inline-block;
+        float: left !important;
+        margin-top: 20px;
+    }
+}
 
 @media screen and (max-width: 768px) {
+    /*slider-content {
+        height: 400px;
+    }*/
     .fusion-tabs.vertical-tabs .tab-pane {
         max-width: none !important;
     }

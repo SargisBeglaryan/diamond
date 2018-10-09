@@ -1,8 +1,12 @@
 <header>
-	<div class="fusion-secondary-header">
-		<div class="row justify-content-md-center">
-			<div class="col-md-10">
-				<div class="row fusion-contact-info">Call Us Today! 1.555.555.555<span class="fusion-header-separator">|</span><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="fusion-secondary-header">
+				<div class="row justify-content-md-center">
+					<div class="col-md-10">
+						<div class="fusion-contact-info">Call Us Today! 1.555.555.555<span class="fusion-header-separator">|</span><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

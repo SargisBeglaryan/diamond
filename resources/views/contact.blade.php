@@ -84,10 +84,10 @@
 						</p>
 						<div class="social-icons-content">
 							<ul class="social-icons-list">
-								<li><a target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a target="_blank"><i class="fab fa-instagram"></i></a></li>
-								<li><a target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
 							</ul>
 						</div>
 					</div>
