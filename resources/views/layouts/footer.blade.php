@@ -61,7 +61,8 @@
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-6">
-					<div class="textwidget"><p><i class="fa fa-map-marker"></i> Location</p>
+					<div class="textwidget">
+						<p class="text-light"><i class="fas fa-map-marker-alt"></i> Location</p>
 						<h3 style="color:#fff;">8260 Stein am Rhein / Switzerland</h3>
 					</div>
 				</div>
